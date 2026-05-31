@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.birthday-card {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cake {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #ff4d6d;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff2e58;
+}
